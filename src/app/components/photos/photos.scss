@@ -1,0 +1,50 @@
+.layout {
+  display: flex;
+  height: 100vh;
+}
+
+.content {
+  padding: 20px;
+  flex: 1;
+  overflow: auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  width: 140px;
+  border: 1px solid #233261;
+  border-radius: 10px;
+}
+
+.cardImg {
+  width: 140px;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 10px;
+}
+
+.list {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 18px;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  gap: 3px;
+}
+
+.loader {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
